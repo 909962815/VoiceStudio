@@ -1,3 +1,4 @@
+# [中文注释] 音频校验：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Lightweight validation for persisted profile WAV references.
 
 This module deliberately uses only the standard library. Gallery routers import

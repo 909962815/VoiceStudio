@@ -1,3 +1,4 @@
+# [中文注释] 产品级应用配置（产品名等）：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Validated product identity and default ports from the repository manifest."""
 
 from __future__ import annotations

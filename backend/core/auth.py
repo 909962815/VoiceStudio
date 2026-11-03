@@ -1,3 +1,4 @@
+# [中文注释] 身份认证：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Canonical authentication identity for HTTP and WebSocket connections.
 
 Transport parsing belongs here; authorization remains in FastAPI dependencies.
@@ -71,6 +72,7 @@ def remote_api_key() -> str | None:
     return os.environ.get("OMNIVOICE_API_KEY", "").strip() or None
 
 
+# 中文注释：常量时间凭据比对，接受完整 Unicode 范围。
 def credential_matches(supplied: str | None, configured: str | None) -> bool:
     """Constant-time credential comparison that accepts the full Unicode range."""
     if not supplied or not configured:
@@ -461,6 +463,7 @@ def _candidate_principal(
     return principal
 
 
+# 中文注释：解析并附加一次请求的唯一身份认证结论。
 def resolve_principal(
     connection,
     *,
@@ -522,6 +525,7 @@ def resolve_principal(
     )
 
 
+# 中文注释：判断请求是否携带了有效的 API 密钥或管理员会话。
 def presents_valid_credential(
     connection,
     *,

@@ -1,3 +1,4 @@
+# [中文注释] 浏览器环境防护：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Refuse browser requests that another website makes to the local API.
 
 The API trusts the network position of loopback callers (the desktop app, the

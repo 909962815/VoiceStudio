@@ -1,3 +1,4 @@
+# [中文注释] 使用统计（需用户同意才开启）：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Opt-in product analytics — hardened.
 
 VoiceStudio is local-first, so analytics here is held to a higher bar than the

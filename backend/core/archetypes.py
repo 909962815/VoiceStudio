@@ -1,3 +1,4 @@
+# [中文注释] 声音原型词汇：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Designed-voice archetype engine for the Voice Gallery.
 
 This module produces a large catalog of ready-to-use *designed* voices — no

@@ -5,6 +5,8 @@
   </p>
   <h2>AI voice studio. On your device.</h2>
   <h3>Clone, design, dub, dictate, transcribe and narrate in 646 languages.</h3>
+  <!-- 中文标题：VoiceStudio —— 装在你自己设备上的 AI 语音工作室 -->
+  <!-- 中文说明：开源的、完全本地运行的 ElevenLabs 替代品：语音克隆、语音设计、视频配音、听写、转录、有声书，支持 646 种语言；模型和数据都在本地跑，不依赖云端服务。以下中文注释仅为说明，不改动任何原文和功能。 -->
   <p>Runs on your laptop, desktop, servers, phone, tablets and more</p>
   <p>
     <a href="https://voicestudio.sh/?utm_source=github&utm_medium=readme&utm_campaign=project">Website</a> ·
@@ -49,6 +51,7 @@
 </p>
 
 ## What you can do
+<!-- 中文注释：能做什么：语音克隆、视频配音、语音设计、本地模型管理，外加听写转录、有声书批量任务、本地 API 和自动化。 -->
 
 <table>
   <tr>
@@ -96,6 +99,7 @@
 Start with **VoiceStudio** (default, powered by k2-fsa/OmniVoice), or pick from dozens of other engines in the Model Manager. See the [features & engine catalog](docs/feature-catalog.md).
 
 ## Platforms
+<!-- 中文注释：支持平台：macOS、Windows、Linux、Docker、安卓、iPhone/iPad；桌面和手机安装包都在最新 Release 里。 -->
 
 | Platform & status | Downloads & acceleration |
 | :--- | :--- |
@@ -111,6 +115,7 @@ Start with **VoiceStudio** (default, powered by k2-fsa/OmniVoice), or pick from 
 Desktop and phone installers are on the [latest release](https://github.com/debpalash/VoiceStudio/releases/latest); Docker images come from GHCR. No GPU? The app is fully usable on the CPU, just slower. Native GGUF engines can also use Vulkan on AMD, Intel and NVIDIA GPUs; OmniVoice GGUF picks its GPU and model size automatically on Windows and Linux ([OmniVoice](docs/engines/omnivoice-gguf.md#vulkan-acceleration), [CosyVoice](docs/engines/cosyvoice-gguf.md)). Speed by engine and hardware: [performance](docs/performance.md).
 
 ## Get started
+<!-- 中文注释：快速开始：安装方法和第一次运行的步骤。 -->
 
 **macOS / Linux**
 
@@ -186,6 +191,7 @@ Upgrading from 0.5.3 or older (the Tauri app)? [Install the new app separately](
 </details>
 
 ## Documentation
+<!-- 中文注释：文档索引：安装排障、配音指南、模型与引擎、本地 API/MCP、手机应用、开发贡献都在这里。 -->
 
 [All guides](docs/README.md)
 
@@ -201,6 +207,7 @@ Upgrading from 0.5.3 or older (the Tauri app)? [Install the new app separately](
 Agent skills: `npx skills add debpalash/VoiceStudio` (**voicestudio** for audio work, **voicestudio-maintainer** for the repo).
 
 ## Sponsors
+<!-- 中文注释：赞助：VoiceStudio 免费且背后没有付费云服务，赞助用于维护时间、测试硬件、签名和发布基建。 -->
 
 VoiceStudio is free and has no paid cloud behind it. Sponsors keep it shipping: they fund maintainer time, test hardware, code-signing and release infrastructure.
 
@@ -216,6 +223,7 @@ For sponsorship inquiries, contact [sponsor@voicestudio.sh](mailto:sponsor@voice
 [Ko-fi](https://ko-fi.com/debpalash) · [PayPal](https://paypal.me/palashCoder) · [Tiers and benefits](SPONSORS.md) · [Get your logo listed](https://github.com/debpalash/VoiceStudio/issues/new?template=sponsor.yml)
 
 ## Other projects
+<!-- 中文注释：同团队的其他开源项目。 -->
 
 More open-source tools from the people building VoiceStudio.
 
@@ -226,8 +234,10 @@ More open-source tools from the people building VoiceStudio.
 More projects: [debpalash](https://github.com/debpalash?tab=repositories) · [velixio](https://github.com/velixio?tab=repositories)
 
 ## Team
+<!-- 中文注释：团队。 -->
 
 ### Core team
+<!-- 中文注释：核心团队。 -->
 
 <table>
 <tr>
@@ -237,15 +247,18 @@ More projects: [debpalash](https://github.com/debpalash?tab=repositories) · [ve
 </table>
 
 ### Contributors
+<!-- 中文注释：贡献者。 -->
 
 <a href="https://github.com/kevin9327"><img src="https://github.com/kevin9327.png?size=96" width="44" height="44" alt="@kevin9327" title="@kevin9327"></a> <a href="https://github.com/jaketame"><img src="https://github.com/jaketame.png?size=96" width="44" height="44" alt="@jaketame" title="@jaketame"></a> <a href="https://github.com/psiberfunk"><img src="https://github.com/psiberfunk.png?size=96" width="44" height="44" alt="@psiberfunk" title="@psiberfunk"></a> <a href="https://github.com/rudycelekli"><img src="https://github.com/rudycelekli.png?size=96" width="44" height="44" alt="@rudycelekli" title="@rudycelekli"></a> <a href="https://github.com/paoloantinori"><img src="https://github.com/paoloantinori.png?size=96" width="44" height="44" alt="@paoloantinori" title="@paoloantinori"></a> <a href="https://github.com/Chang-Jin-Lee"><img src="https://github.com/Chang-Jin-Lee.png?size=96" width="44" height="44" alt="@Chang-Jin-Lee" title="@Chang-Jin-Lee"></a> <a href="https://github.com/swadhinbiswas"><img src="https://github.com/swadhinbiswas.png?size=96" width="44" height="44" alt="@swadhinbiswas" title="@swadhinbiswas"></a> <a href="https://github.com/BichengWang"><img src="https://github.com/BichengWang.png?size=96" width="44" height="44" alt="@BichengWang" title="@BichengWang"></a> <a href="https://github.com/nirmalchatur"><img src="https://github.com/nirmalchatur.png?size=96" width="44" height="44" alt="@nirmalchatur" title="@nirmalchatur"></a> <a href="https://github.com/Shivendra-Coherent"><img src="https://github.com/Shivendra-Coherent.png?size=96" width="44" height="44" alt="@Shivendra-Coherent" title="@Shivendra-Coherent"></a> <a href="https://github.com/marreiradigital"><img src="https://github.com/marreiradigital.png?size=96" width="44" height="44" alt="@marreiradigital" title="@marreiradigital"></a> <a href="https://github.com/nvtoan0201-swe"><img src="https://github.com/nvtoan0201-swe.png?size=96" width="44" height="44" alt="@nvtoan0201-swe" title="@nvtoan0201-swe"></a>
 
 Thank you to everyone who sends code, reports, translations and ideas. [All contributors](https://github.com/debpalash/VoiceStudio/graphs/contributors) · [Contribute](.github/CONTRIBUTING.md)
 
 ## License & responsible use
+<!-- 中文注释：许可证与负责任使用：应用本身是 AGPL-3.0；克隆声音必须得到声音所有者许可。 -->
 
 [AGPL-3.0](LICENSE) covers the app, including commercial use under its terms. Model weights, voices and generated output have their own licences, which the Model Manager shows for each model ([inventory](docs/licensing/model-inventory.md)). Clone a voice only with its owner's permission. Details: [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
 
 ## Community tutorials
+<!-- 中文注释：社区教程。 -->
 
 - [VoiceStudio walkthrough by Nafay 3D (YouTube)](https://www.youtube.com/watch?v=I-u-A-oisIU)
