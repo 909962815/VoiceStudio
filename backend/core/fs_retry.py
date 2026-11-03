@@ -1,3 +1,4 @@
+# [中文注释] 文件系统重试：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Bounded retries for filesystem steps that a transient lock can fail.
 
 On Windows, antivirus scanners and the indexer open a freshly written or just

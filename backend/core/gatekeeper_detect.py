@@ -1,3 +1,4 @@
+# [中文注释] macOS Gatekeeper 检测：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """macOS Gatekeeper quarantine detection.
 
 Issue #54 — When a user downloads the .dmg/.zip outside the Mac App Store,

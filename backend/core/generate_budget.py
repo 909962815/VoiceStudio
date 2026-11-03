@@ -1,3 +1,4 @@
+# [中文注释] 生成预算：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Pure length-scaling arithmetic for the per-job generate compute budget.
 
 Stdlib only, so ``services.model_manager`` (the real budget) and the standalone

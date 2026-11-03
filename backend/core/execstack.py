@@ -1,3 +1,4 @@
+# [中文注释] 执行栈信息：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Repair CTranslate2 shared libraries that ask the kernel for an executable stack.
 
 CTranslate2 wheels up to 4.4.0 ship ``libctranslate2*.so`` files whose ELF

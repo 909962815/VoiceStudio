@@ -1,3 +1,4 @@
+# [中文注释] 文件清理：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Reliable file deletion for user-visible destructive operations."""
 from __future__ import annotations
 
