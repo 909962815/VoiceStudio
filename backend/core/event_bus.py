@@ -1,3 +1,4 @@
+# [中文注释] 事件总线：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """In-memory pub/sub event bus for real-time UI updates.
 
 Any backend code that mutates sidebar-visible data (projects, profiles,
@@ -30,6 +31,7 @@ _lock = asyncio.Lock()
 _serving_loop: asyncio.AbstractEventLoop | None = None
 
 
+# 中文注释：订阅事件：注册监听，返回一个接收事件字典的队列。
 async def subscribe() -> asyncio.Queue:
     """Register a new listener. Returns a Queue that receives event dicts."""
     global _serving_loop
@@ -40,6 +42,7 @@ async def subscribe() -> asyncio.Queue:
     return q
 
 
+# 中文注释：取消事件订阅。
 async def unsubscribe(q: asyncio.Queue) -> None:
     """Remove a listener."""
     async with _lock:
@@ -49,6 +52,7 @@ async def unsubscribe(q: asyncio.Queue) -> None:
             pass
 
 
+# 中文注释：广播事件给所有已连接的前端。
 def emit(kind: str, payload: dict[str, Any] | None = None) -> None:
     """Broadcast an event to all connected frontends.
 

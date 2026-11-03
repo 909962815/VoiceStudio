@@ -1,3 +1,4 @@
+# [中文注释] 诊断信息打包：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Diagnostic bundle — everything a maintainer needs, in one drag-and-drop.
 
 The prefilled GitHub Issues URL caps out around 8k characters, so logs can

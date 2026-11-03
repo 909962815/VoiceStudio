@@ -1,3 +1,4 @@
+# [中文注释] 错误文档映射：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Error class → docs URL mapping for the in-app deeplink button.
 
 Used by the React ErrorBoundary's "Open docs for this error" button (via the

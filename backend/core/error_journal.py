@@ -1,3 +1,4 @@
+# [中文注释] 错误日志：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Ring journal of recent backend errors — the "what just broke" store.
 
 The global exception handler (main.py) records every unhandled exception

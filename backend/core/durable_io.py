@@ -1,3 +1,4 @@
+# [中文注释] 可靠 IO 读写：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Power-loss durability for files published with a temp-file + ``os.replace``.
 
 ``os.replace`` makes a write atomic against a *process* dying mid-write, but

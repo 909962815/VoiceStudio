@@ -1,3 +1,4 @@
+# [中文注释] 启动环境准备：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Load optional startup environment files without letting bad encoding stop the app."""
 import logging
 import os

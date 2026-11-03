@@ -1,3 +1,4 @@
+# [中文注释] 诊断工具：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Self-check diagnostics — answers "why doesn't it work on my machine?"
 
 One pass over everything a working install needs: Python, compute device,

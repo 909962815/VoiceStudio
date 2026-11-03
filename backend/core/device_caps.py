@@ -1,3 +1,4 @@
+# [中文注释] 设备能力检测：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Canonical host compute-capability probe — the single source of truth for
 "what can this machine actually accelerate on."
 
