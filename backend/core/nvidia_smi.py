@@ -1,3 +1,4 @@
+# [中文注释] NVIDIA SMI 查询：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Locate NVIDIA's management CLI consistently, including its WSL path."""
 
 from __future__ import annotations

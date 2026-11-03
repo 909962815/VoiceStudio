@@ -1,3 +1,4 @@
+# [中文注释] HTTP 头处理（含本地化文件名解析）：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """RFC 6266 ``Content-Disposition`` construction.
 
 #1262: exporting a voice profile whose name isn't spelled in Latin letters

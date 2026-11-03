@@ -1,3 +1,4 @@
+# [中文注释] 媒体类型：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """File extensions accepted for uploaded media.
 
 Uploads keep the client's extension on disk, so an unrestricted extension lets

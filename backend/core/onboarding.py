@@ -1,3 +1,4 @@
+# [中文注释] 新手引导：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """First-run onboarding — seeds a demo voice profile so the Launchpad
 isn't empty on initial launch.  Runs once; skips silently if any
 profiles already exist.

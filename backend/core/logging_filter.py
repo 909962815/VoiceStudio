@@ -1,3 +1,4 @@
+# [中文注释] 日志过滤：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """HuggingFace token redaction filter for Python's logging system.
 
 Mitigates threat T-01-02 (information disclosure via logs). The filter is

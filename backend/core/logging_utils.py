@@ -1,3 +1,4 @@
+# [中文注释] 日志工具：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Safe rendering for untrusted values at the logging seam."""
 
 from __future__ import annotations

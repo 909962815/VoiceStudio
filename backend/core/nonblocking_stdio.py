@@ -1,3 +1,4 @@
+# [中文注释] 非阻塞标准输入输出：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Never let a slow log reader freeze the event loop.
 
 The desktop shell starts the backend with stdout and stderr connected to pipes

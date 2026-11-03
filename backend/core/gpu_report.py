@@ -1,3 +1,4 @@
+# [中文注释] GPU 报告：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """GPU acceleration report — "which of my engines will use the GPU, and if not, why?"
 
 Joins three independent facts that the rest of the backend keeps apart:

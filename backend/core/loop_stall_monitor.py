@@ -1,3 +1,4 @@
+# [中文注释] 事件循环停滞监控：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Name the code that blocks the event loop when /health stops answering.
 
 The desktop shell polls ``/health`` with a 1.5 s deadline. When a synchronous

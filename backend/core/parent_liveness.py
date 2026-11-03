@@ -1,3 +1,4 @@
+# [中文注释] 父进程存活检测：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Terminate a desktop-contained backend when its owning shell disappears."""
 from __future__ import annotations
 

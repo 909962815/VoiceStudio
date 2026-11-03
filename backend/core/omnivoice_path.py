@@ -1,3 +1,4 @@
+# [中文注释] OmniVoice 路径：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Resolve the project's own ``omnivoice`` package from source when the venv's
 editable install is missing (#564).
 

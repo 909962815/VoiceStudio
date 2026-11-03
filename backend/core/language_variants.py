@@ -1,3 +1,4 @@
+# [中文注释] 语言变体：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Regional language variants offered as their own language choices (#3143).
 
 Brazilian and European Portuguese differ in spelling, vocabulary and number

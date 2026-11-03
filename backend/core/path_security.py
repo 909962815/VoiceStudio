@@ -1,3 +1,4 @@
+# [中文注释] 路径安全：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Filesystem trust-boundary helpers.
 
 Paths persisted in SQLite are still untrusted: older clients and imported job

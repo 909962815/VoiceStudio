@@ -1,3 +1,4 @@
+# [中文注释] GPU 清单：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Which GPUs are physically in this machine — independent of what PyTorch sees.
 
 ``device_caps`` answers "what can the installed torch accelerate on"; this

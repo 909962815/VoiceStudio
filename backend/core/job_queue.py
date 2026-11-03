@@ -1,3 +1,4 @@
+# [中文注释] 任务队列：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Serial async job queue for GPU-bound work.
 
 Why: TTS inference, diarization, demucs, Whisper, ffmpeg muxing all contend
@@ -24,6 +25,7 @@ from typing import Any, Awaitable, Callable, Dict, List, Optional
 logger = logging.getLogger("omnivoice.jobs")
 
 
+# 中文注释：任务状态枚举。
 class JobState(str, enum.Enum):
     QUEUED = "queued"
     RUNNING = "running"
@@ -32,6 +34,7 @@ class JobState(str, enum.Enum):
     CANCELLED = "cancelled"
 
 
+# 中文注释：一个任务的数据结构。
 @dataclass
 class Job:
     id: str
@@ -62,6 +65,7 @@ class Job:
         }
 
 
+# 中文注释：单 lane 串行异步 worker：支持取消和查看状态。
 class JobQueue:
     """Single-lane serial async worker with cancellation and introspection."""
 

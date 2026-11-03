@@ -1,3 +1,4 @@
+# [中文注释] 路径授权：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Consume one-shot host paths authorized by the native desktop process.
 
 The web API never accepts a filesystem destination or executable path. The
