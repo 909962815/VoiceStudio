@@ -1,3 +1,4 @@
+# [中文注释] 数据库备份：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Pre-migration SQLite safety net (data-safe updates).
 
 Before ``alembic upgrade head`` applies *pending* migrations at startup —

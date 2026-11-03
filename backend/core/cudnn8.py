@@ -1,3 +1,4 @@
+# [中文注释] cuDNN 8 支持：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """cuDNN 8 side-load, and — the point of this module — a *probe* for it.
 
 CTranslate2 (pinned at 4.4.0; the engine under WhisperX and faster-whisper)

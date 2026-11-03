@@ -1,3 +1,4 @@
+# [中文注释] 变更钩子：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Announce local setting writes to the Cloud sync engine (desktop-app-guide §5).
 
 ``prefs``, ``settings_store`` and the renderer mirror call ``notify(source, key)``

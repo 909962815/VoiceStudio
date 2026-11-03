@@ -1,3 +1,4 @@
+# [中文注释] 崩溃诊断：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Best-effort native-crash traceback diagnostics for backend processes."""
 from __future__ import annotations
 

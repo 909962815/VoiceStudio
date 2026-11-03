@@ -1,3 +1,4 @@
+# [中文注释] 内置 eSpeak 资源：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Lease immutable, separately signed espeak images in private MAS runtimes.
 
 espeak has global native state. phonemizer normally isolates each wrapper by

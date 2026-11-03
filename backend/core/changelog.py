@@ -1,3 +1,4 @@
+# [中文注释] 更新日志处理：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Parse the shipped CHANGELOG.md into structured release notes.
 
 Feeds ``GET /api/settings/changelog`` — the Settings → Updates "What's new"

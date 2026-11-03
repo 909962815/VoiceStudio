@@ -1,7 +1,9 @@
+# [中文注释] 后端核心配置：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 import os
 import re
 import sys
 
+# 中文注释：取应用数据目录。
 def get_app_data_dir():
     custom_dir = os.environ.get("OMNIVOICE_DATA_DIR")
     if custom_dir:
@@ -67,6 +69,7 @@ _ensure_short_hf_cache_on_windows()
 DATA_DIR = get_app_data_dir()
 
 
+# 中文注释：取托管引擎安装根目录（虚拟环境、源码检出、音频运行时都在这里）。
 def get_engines_dir(data_dir=None):
     """Root of the managed engine installs (venvs, checkouts, audio.cpp runtime).
 
@@ -110,6 +113,7 @@ LOG_PATH = os.path.join(DATA_DIR, "omnivoice.log")          # rolling runtime lo
 IDLE_TIMEOUT_SECONDS = int(os.environ.get("OMNIVOICE_IDLE_TIMEOUT", "900"))
 CPU_POOL_WORKERS = int(os.environ.get("OMNIVOICE_CPU_POOL", "0")) or min(8, (os.cpu_count() or 4))
 
+# 中文注释：确保所需目录都存在。
 def ensure_dirs():
     for d in [DATA_DIR, VOICES_DIR, OUTPUTS_DIR, DUB_DIR, PREVIEW_DIR]:
         os.makedirs(d, exist_ok=True)

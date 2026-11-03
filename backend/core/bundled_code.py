@@ -1,3 +1,4 @@
+# [中文注释] 内置代码资源：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Code provenance guard for the explicitly selected bundled-runtime distribution.
 
 The default distribution does not install a hook. Model data may live in the

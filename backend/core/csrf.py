@@ -1,3 +1,4 @@
+# [中文注释] CSRF 防护：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 """Exact-origin CSRF checks for ambient browser authentication."""
 
 from __future__ import annotations

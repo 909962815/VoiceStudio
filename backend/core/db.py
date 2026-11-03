@@ -1,3 +1,4 @@
+# [中文注释] 数据库层：VoiceStudio 后端模块，本次仅添加中文注释，未改动任何逻辑代码。
 import re
 import sqlite3
 import logging
@@ -12,6 +13,7 @@ _IDENT_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 _TYPE_RE = re.compile(r"^[A-Za-z0-9_ '\"\(\)\-\.]+$")
 
 
+# 中文注释：取数据库连接。
 def get_db():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
@@ -20,6 +22,7 @@ def get_db():
     return conn
 
 
+# 中文注释：带上下文管理的 SQLite 连接：正常退出时提交，任何情况下都关闭。
 @contextmanager
 def db_conn():
     """Context-managed SQLite connection that commits on clean exit and always closes."""
@@ -368,6 +371,7 @@ def _add_column_if_missing(conn, table: str, column: str, typedef: str):
             logger.warning("ALTER %s.%s failed: %s", table, column, e)
 
 
+# 中文注释：按顺序执行迁移，返回新版本号。
 def _migrate(conn, current: int) -> int:
     """Apply migrations sequentially. Return new version."""
     if current < 1:
@@ -473,6 +477,7 @@ def _ensure_job_events_unique_seq(conn) -> None:
         logger.warning("job_events unique-seq repair failed: %s", exc)
 
 
+# 中文注释：幂等地确保基础表和新增列都存在。
 def ensure_schema() -> None:
     """Idempotently ensure the base tables + additive columns exist.
 
@@ -494,6 +499,7 @@ def ensure_schema() -> None:
         conn.close()
 
 
+# 中文注释：初始化数据库。
 def init_db():
     conn = get_db()
     try:
